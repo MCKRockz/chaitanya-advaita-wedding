@@ -1,0 +1,1 @@
+const wedding=new Date('2026-08-30T10:55:00+05:30');const tick=()=>{const d=wedding-Date.now();if(d<=0)return;};tick();setInterval(tick,1000);
